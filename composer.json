@@ -1,4 +1,6 @@
 {
+	"name": "jinjie/codeigniter-base-model",
+    	"description": "CodeIgniter MY_Model forked from jamierumbelow",
 	"require": {
 		"phpunit/phpunit": "3.7.*",
 		"mockery/mockery": ">=0.7.2"
