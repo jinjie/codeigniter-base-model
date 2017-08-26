@@ -261,6 +261,7 @@ class MY_Model extends CI_Model
                                ->set($data)
                                ->update($this->_table);
 
+            $data['id'] = $primary_value;
             $this->trigger('after_update', array($data, $result));
 
             return $result;
